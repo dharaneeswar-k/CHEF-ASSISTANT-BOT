@@ -1,0 +1,94 @@
+{
+    "recipes": {
+        "dosa": {
+            "ingredients": ["rice", "urad dal", "fenugreek seeds", "salt"],
+            "steps": [
+                "Soak rice and dal separately for 4-6 hours.",
+                "Grind soaked ingredients to make a smooth batter.",
+                "Ferment the batter overnight.",
+                "Add salt, pour batter onto a hot tawa, and cook to make dosa."
+            ]
+        },
+        "idli": {
+            "ingredients": ["rice", "urad dal", "salt"],
+            "steps": [
+                "Soak rice and dal separately for 4-6 hours.",
+                "Grind into a batter and ferment overnight.",
+                "Add salt, pour into idli molds, and steam for 10-12 minutes."
+            ]
+        },
+        "pani puri": {
+            "ingredients": ["semolina", "flour", "potatoes", "chickpeas", "mint", "tamarind"],
+            "steps": [
+                "Make puris by mixing semolina and flour, rolling thin discs, and frying.",
+                "Prepare filling with mashed potatoes and chickpeas.",
+                "Make spicy water with mint and tamarind.",
+                "Fill puris with filling and spicy water before serving."
+            ]
+        },
+        "pav bhaji": {
+            "ingredients": ["potatoes", "peas", "tomatoes", "pav bhaji masala", "butter", "bread rolls"],
+            "steps": [
+                "Boil potatoes and peas, then mash them.",
+                "Sauté tomatoes and spices, then add the mashed vegetables.",
+                "Simmer with pav bhaji masala until flavors blend.",
+                "Serve hot with buttered bread rolls."
+            ]
+        },
+        "pulao": {
+            "ingredients": ["rice", "mixed vegetables", "spices", "ghee", "salt"],
+            "steps": [
+                "Rinse rice and soak for 20 minutes.",
+                "In a pot, heat ghee and add spices, then add vegetables and rice.",
+                "Cook with water until rice is fluffy and cooked through."
+            ]
+        },
+        "chicken curry": {
+            "ingredients": ["chicken", "onions", "tomatoes", "curry powder", "salt"],
+            "steps": [
+                "Sauté onions until golden, then add chicken pieces.",
+                "Add tomatoes, curry powder, and salt, and cook until chicken is tender.",
+                "Simmer until sauce thickens and serve hot."
+            ]
+        },
+        "dal makhani": {
+            "ingredients": ["whole urad dal", "kidney beans", "tomatoes", "cream", "spices"],
+            "steps": [
+                "Soak dal and kidney beans overnight, then cook until soft.",
+                "Sauté tomatoes with spices, add dal mixture, and simmer.",
+                "Finish with cream for a rich flavor."
+            ]
+        },
+        "gulab jamun": {
+            "ingredients": ["milk powder", "flour", "sugar", "rose water", "cardamom"],
+            "steps": [
+                "Make a dough with milk powder and flour, then shape into small balls.",
+                "Deep-fry until golden brown.",
+                "Soak in sugar syrup flavored with rose water and cardamom."
+            ]
+        }
+    },
+    "cooking_tips": [
+        "Always taste your food as you cook to adjust seasoning.",
+        "Let your meat rest after cooking to retain juices.",
+        "Use fresh herbs for more vibrant flavors.",
+        "Preheat your pan before adding ingredients to get a good sear.",
+        "Soak onions in cold water for milder taste in salads.",
+        "Salt pasta water generously; it should taste like the sea."
+    ],
+    "food_facts": [
+        "Did you know that tomatoes are technically a fruit?",
+        "The world's most expensive spice is saffron, derived from the saffron crocus flower.",
+        "Honey never spoils; it can last thousands of years.",
+        "Avocados are a berry, while strawberries aren't technically berries.",
+        "Cucumbers are 96% water, making them very hydrating.",
+        "Dark chocolate contains antioxidants beneficial for heart health."
+    ],
+    "cooking_questions": {
+        "what is the best way to cook rice?": "The best way to cook rice is to use the absorption method. Use a 2:1 ratio of water to rice, bring it to a boil, then cover and simmer on low heat until the water is absorbed.",
+        "how can I make my cake fluffy?": "To make your cake fluffy, ensure you cream the butter and sugar well, and don't overmix the batter once you've added the flour.",
+        "why are my cookies too hard?": "If your cookies are hard, you may have baked them too long or added too much flour. Try reducing baking time or checking your measurements.",
+        "how to keep herbs fresh for longer?": "Store herbs in the fridge with their stems in water, covered loosely with a plastic bag, to keep them fresh for up to a week.",
+        "why is my pasta sticking together?": "To prevent pasta from sticking, stir it often in the first few minutes of cooking and use plenty of water."
+    }
+}
