@@ -1,7 +1,6 @@
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #eef2f3; /* Light background color for a softer look */
+    background-color: #eef2f3;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,111 +10,88 @@ body {
 }
 
 .chat-container {
-    background-color: #ffffff; /* White background for the chat container */
+    background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: 90vh; /* Adjusted to occupy more vertical space */
-    max-width: 600px; /* Optional: Maximum width */
+    height: 90vh;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* Prevents overflow */
+    overflow: hidden;
 }
 
-/* Header Styles */
 h1 {
     text-align: center;
     font-size: 26px;
     margin: 20px 0;
-    color: #333; /* Darker text for better readability */
+    color: #333;
     font-weight: 600;
 }
 
-/* Chatbox Styles */
 .chatbox {
     flex-grow: 1;
     border: none;
-    border-radius: 15px 15px 0 0; /* Rounded corners on top */
+    border-radius: 15px 15px 0 0;
     padding: 10px;
-    overflow-y: auto; /* Enable scrolling */
-    max-height: 70vh; /* Set a maximum height */
-    background-color: #f7f7f7; /* Light grey background for the chat area */
+    overflow-y: auto;
+    max-height: 70vh;
+    background-color: #f7f7f7;
 }
 
-/* Chat Message Styles */
 .chat-message {
     margin-bottom: 15px;
     padding: 10px 15px;
-    border-radius: 20px; /* More rounded corners for messages */
-    max-width: 80%; /* Prevents messages from being too wide */
-    word-wrap: break-word; /* Allow long words to break */
+    border-radius: 20px;
+    max-width: 80%;
+    word-wrap: break-word;
 }
 
-/* User Message Styles */
 .chat-message.user {
-    background-color: #007bff; /* Blue background for user messages */
+    background-color: #007bff;
     color: white;
     width: fit-content;
-    align-self: flex-end; /* Aligns user messages to the right */
-    margin-left: auto; /* Pushes user messages to the right */
-    margin-right: 0; /* No margin for user messages */
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 0;
 }
 
-/* Bot Message Styles */
-.chat-message.bot {
-    background-color: #e0e0e0; /* Light grey background for bot messages */
-    color: black; /* Black text color */
-    align-self: flex-start; /* Aligns bot messages to the left */
-    margin-left: 0; /* No margin for bot messages */
-    margin-right: auto; /* Pushes bot messages to the left */
-}
-
-/* Bot Image */
-.bot-avatar {
-    width: 40px; /* Adjust the size of the avatar */
-    height: 40px; /* Ensure the avatar is a square */
-    border-radius: 50%; /* Circular avatar */
-    margin-right: 10px; /* Space between avatar and message */
-}
-
-/* Input Styles */
 .input-container {
     display: flex;
-    border-top: 1px solid #ddd; /* Divider line above the input */
-    padding: 10px; /* Padding for input area */
-    background-color: white; /* White background for input area */
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
 }
 
 #userInput {
     flex-grow: 1;
     padding: 12px;
     border: 1px solid #ddd;
-    border-radius: 25px; /* Rounded input field */
+    border-radius: 25px;
     font-size: 16px;
-    margin-right: 10px; /* Space between input and button */
+    margin-right: 10px;
 }
 
 #userInput:focus {
-    border-color: #007bff; /* Change border color on focus */
-    outline: none; /* Remove outline */
+    border-color: #007bff;
+    outline: none;
 }
 
 #sendBtn {
-    background-color: #28a745; /* Green color */
+    background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 25px; /* Rounded button */
+    border-radius: 25px;
     padding: 12px 20px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 #sendBtn:hover {
-    background-color: #218838; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly enlarge button on hover */
+    background-color: #218838;
+    transform: scale(1.05);
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     h1 {
         font-size: 22px;
@@ -129,4 +105,25 @@ h1 {
         padding: 10px 15px;
         font-size: 14px;
     }
+}
+
+.chat-message.bot {
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.bot-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-message.bot p {
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
